@@ -14,7 +14,6 @@ public class billboard {
 			int y1 = stdin.nextInt()+1000;
 			int x2 = stdin.nextInt()+1000;
 			int y2 = stdin.nextInt()+1000;
-
 			for (int x=x1; x<x2; x++)
 				for (int y=y1; y<y2; y++)
 					see[x][y] = true;
